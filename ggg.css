@@ -1,0 +1,40 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #74ABE2, #5563DE);
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.download-btn {
+    display: inline-block;
+    background-color: #fff;
+    color: #5563DE;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: #5563DE;
+    color: #fff;
+    transform: scale(1.05);
+}
